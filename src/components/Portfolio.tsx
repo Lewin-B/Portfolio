@@ -3,6 +3,8 @@ import Durdle from './images/Durdle.png';
 import Shop from './images/Shop.png';
 import Car from './images/Car.png';
 import ML from './images/ML.jpeg';
+import Law from './images/secondfinal.gif';
+import blurr from './images/image (1).jpg';
 import { Reveal } from './Reveal';
 
 const Portfolio: React.FC = () => {
@@ -41,6 +43,22 @@ const Portfolio: React.FC = () => {
       gitUrl: 'https://github.com/Lewin-B/Image-Classification.git',
       Url: '',
       status: false,
+    },
+    {
+      id: 5,
+      img: Law,
+      name: 'Lawgic',
+      gitUrl: 'https://github.com/Lewin-B/KnightHacks-2023',
+      Url: '',
+      status: false,
+    },
+    {
+      id: 6,
+      img: blurr,
+      name: 'blurrsmith.ai',
+      gitUrl: 'https://github.com/Lewin-B/Shellhacks-2023',
+      Url: 'https://6507104a5d971a4275e265e1--strong-kringle-b099de.netlify.app/',
+      status: true,
     }
   ];
 
