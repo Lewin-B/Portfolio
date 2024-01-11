@@ -89,7 +89,7 @@ const Portfolio: React.FC = () => {
                   </a>
                 </Reveal>
               ) : (
-                <div className="flex flex-row justify-center">
+                <div className="flex sm:flex-row flex-col justify-center">
                     <Reveal>
                       <a href={gitUrl}>
                           <button className="px-6 m-4 duration-200 hover:scale-105 font-roboto text-white">
